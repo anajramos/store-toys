@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 420" width="280" height="420">
+  <defs>
+    <radialGradient id="bgB" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#fff1f2"/>
+      <stop offset="100%" stop-color="#fecdd3"/>
+    </radialGradient>
+    <radialGradient id="skinB" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#f9d9aa"/>
+      <stop offset="100%" stop-color="#e8b87a"/>
+    </radialGradient>
+    <radialGradient id="shirtW" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#f9fafb"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="280" height="420" fill="url(#bgB)" rx="28"/>
+  <circle cx="28" cy="35" r="10" fill="#fca5a5" opacity="0.25"/>
+  <circle cx="252" cy="42" r="8" fill="#f87171" opacity="0.18"/>
+  <circle cx="22" cy="380" r="12" fill="#fca5a5" opacity="0.18"/>
+  <circle cx="258" cy="375" r="9" fill="#f87171" opacity="0.15"/>
+
+  <!-- ===== PERNAS LONGAS (boneco alto de pano) ===== -->
+  <!-- Perna esq -->
+  <rect x="97" y="300" width="36" height="95" rx="18" fill="#374151"/>
+  <line x1="115" y1="304" x2="115" y2="388" stroke="#4b5563" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.5"/>
+  <!-- Perna dir -->
+  <rect x="147" y="300" width="36" height="95" rx="18" fill="#374151"/>
+  <line x1="165" y1="304" x2="165" y2="388" stroke="#4b5563" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.5"/>
+
+  <!-- Tênis vermelhos (cor SENAI) -->
+  <ellipse cx="115" cy="393" rx="25" ry="12" fill="#dc2626"/>
+  <ellipse cx="112" cy="390" rx="17" ry="8" fill="#ef4444"/>
+  <ellipse cx="165" cy="393" rx="25" ry="12" fill="#dc2626"/>
+  <ellipse cx="162" cy="390" rx="17" ry="8" fill="#ef4444"/>
+  <!-- Sola branca -->
+  <ellipse cx="115" cy="396" rx="25" ry="5" fill="white" opacity="0.2"/>
+  <ellipse cx="165" cy="396" rx="25" ry="5" fill="white" opacity="0.2"/>
+
+  <!-- ===== CORPO - camiseta branca e vermelha ===== -->
+  <rect x="80" y="162" width="120" height="146" rx="28" fill="url(#shirtW)"/>
+  <!-- Costura corpo -->
+  <line x1="84" y1="172" x2="84" y2="300" stroke="#d1d5db" stroke-width="1.5" stroke-dasharray="6,5" opacity="0.4"/>
+  <line x1="196" y1="172" x2="196" y2="300" stroke="#d1d5db" stroke-width="1.5" stroke-dasharray="6,5" opacity="0.4"/>
+
+  <!-- Listras vermelhas laterais (SENAI) -->
+  <rect x="80" y="162" width="20" height="146" rx="12" fill="#dc2626"/>
+  <rect x="180" y="162" width="20" height="146" rx="12" fill="#dc2626"/>
+  <!-- Costura listras -->
+  <line x1="90" y1="168" x2="90" y2="300" stroke="#b91c1c" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <line x1="190" y1="168" x2="190" y2="300" stroke="#b91c1c" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+
+  <!-- Logo SENAI -->
+  <rect x="103" y="188" width="74" height="48" rx="8" fill="#dc2626"/>
+  <text x="140" y="207" font-family="Arial Black, sans-serif" font-size="14" font-weight="900" fill="white" text-anchor="middle" letter-spacing="1">SENAI</text>
+  <text x="140" y="220" font-family="Arial, sans-serif" font-size="6" fill="white" text-anchor="middle">SERVIÇO NACIONAL</text>
+  <text x="140" y="230" font-family="Arial, sans-serif" font-size="6" fill="white" text-anchor="middle">DE APRENDIZAGEM IND.</text>
+
+  <!-- Botão camiseta (detalhe boneco) -->
+  <circle cx="140" cy="256" r="5" fill="#e5e7eb" stroke="#d1d5db" stroke-width="1.5"/>
+  <line x1="139" y1="256" x2="141" y2="256" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="140" y1="255" x2="140" y2="257" stroke="#9ca3af" stroke-width="1"/>
+  <circle cx="140" cy="272" r="5" fill="#e5e7eb" stroke="#d1d5db" stroke-width="1.5"/>
+  <line x1="139" y1="272" x2="141" y2="272" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="140" y1="271" x2="140" y2="273" stroke="#9ca3af" stroke-width="1"/>
+
+  <!-- Cinto de pano -->
+  <rect x="80" y="296" width="120" height="12" rx="6" fill="#374151"/>
+  <rect x="127" y="292" width="26" height="20" rx="4" fill="#4b5563"/>
+  <rect x="131" y="295" width="18" height="14" rx="2" fill="#6b7280"/>
+
+  <!-- ===== BRAÇOS LONGOS de pano ===== -->
+  <!-- Braço esq - manga branca e vermelha -->
+  <rect x="30" y="170" width="54" height="28" rx="14" fill="url(#shirtW)"/>
+  <rect x="30" y="170" width="22" height="28" rx="14" fill="#dc2626"/>
+  <line x1="34" y1="184" x2="80" y2="184" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <!-- Mão esq de pano -->
+  <ellipse cx="38" cy="215" rx="19" ry="17" fill="url(#skinB)"/>
+  <path d="M22,215 Q38,202 54,215 Q38,228 22,215" fill="none" stroke="#d4a070" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- Braço dir -->
+  <rect x="196" y="170" width="54" height="28" rx="14" fill="url(#shirtW)"/>
+  <rect x="228" y="170" width="22" height="28" rx="14" fill="#dc2626"/>
+  <line x1="200" y1="184" x2="246" y2="184" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <!-- Mão dir de pano -->
+  <ellipse cx="242" cy="215" rx="19" ry="17" fill="url(#skinB)"/>
+  <path d="M226,215 Q242,202 258,215 Q242,228 226,215" fill="none" stroke="#d4a070" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- ===== PESCOÇO ===== -->
+  <rect x="126" y="148" width="28" height="20" rx="10" fill="url(#skinB)"/>
+  <line x1="130" y1="150" x2="150" y2="150" stroke="#d4a070" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
+
+  <!-- ===== CABEÇA boneco de pano - levemente ovalada ===== -->
+  <ellipse cx="140" cy="100" rx="68" ry="72" fill="url(#skinB)"/>
+  <!-- Costura circular cabeça -->
+  <path d="M74,85 Q107,36 140,34 Q173,36 206,85" fill="none" stroke="#d4a070" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.4"/>
+  <path d="M74,115 Q78,152 140,166 Q202,152 206,115" fill="none" stroke="#d4a070" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.4"/>
+
+  <!-- Orelhas -->
+  <ellipse cx="73" cy="100" rx="13" ry="16" fill="#e8b87a"/>
+  <ellipse cx="207" cy="100" rx="13" ry="16" fill="#e8b87a"/>
+  <ellipse cx="73" cy="100" rx="7" ry="10" fill="none" stroke="#d4a070" stroke-width="1" stroke-dasharray="3,2" opacity="0.45"/>
+  <ellipse cx="207" cy="100" rx="7" ry="10" fill="none" stroke="#d4a070" stroke-width="1" stroke-dasharray="3,2" opacity="0.45"/>
+
+  <!-- ===== CABELO CACHEADO DE LÃ/LINHA ===== -->
+  <!-- Base do cabelo (faixa de tecido) -->
+  <ellipse cx="140" cy="52" rx="66" ry="44" fill="#2d1a0e"/>
+  <!-- Cachos - bolas de lã estilo boneco de pano -->
+  <!-- Linha de cachos superior -->
+  <circle cx="100" cy="42" r="18" fill="#3d2410"/>
+  <circle cx="120" cy="30" r="19" fill="#2d1a0e"/>
+  <circle cx="140" cy="26" r="21" fill="#3d2410"/>
+  <circle cx="160" cy="30" r="19" fill="#2d1a0e"/>
+  <circle cx="180" cy="42" r="18" fill="#3d2410"/>
+  <!-- Cachos laterais -->
+  <circle cx="80" cy="62" r="16" fill="#3d2410"/>
+  <circle cx="200" cy="62" r="16" fill="#3d2410"/>
+  <circle cx="76" cy="82" r="13" fill="#2d1a0e"/>
+  <circle cx="204" cy="82" r="13" fill="#2d1a0e"/>
+  <!-- Brilho de lã -->
+  <circle cx="108" cy="36" r="7" fill="#5c3d20" opacity="0.6"/>
+  <circle cx="140" cy="22" r="8" fill="#5c3d20" opacity="0.6"/>
+  <circle cx="172" cy="36" r="7" fill="#5c3d20" opacity="0.6"/>
+  <circle cx="80" cy="58" r="6" fill="#5c3d20" opacity="0.5"/>
+  <circle cx="200" cy="58" r="6" fill="#5c3d20" opacity="0.5"/>
+
+  <!-- ===== OLHOS BOTÃO (clássico boneco de pano) ===== -->
+  <circle cx="117" cy="108" r="10" fill="#1e293b"/>
+  <circle cx="163" cy="108" r="10" fill="#1e293b"/>
+  <!-- Cruz do botão -->
+  <line x1="114" y1="108" x2="120" y2="108" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="117" y1="105" x2="117" y2="111" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="160" y1="108" x2="166" y2="108" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="163" y1="105" x2="163" y2="111" stroke="#6b7280" stroke-width="1.5"/>
+  <!-- Brilho olhos -->
+  <circle cx="120" cy="104" r="3" fill="white" opacity="0.6"/>
+  <circle cx="166" cy="104" r="3" fill="white" opacity="0.6"/>
+
+  <!-- SOBRANCELHAS costuradas de lã -->
+  <path d="M102,93 Q117,84 132,93" stroke="#2d1a0e" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M148,93 Q163,84 178,93" stroke="#2d1a0e" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- NARIZ botão de pano -->
+  <ellipse cx="140" cy="128" rx="8" ry="6" fill="#d4a070"/>
+  <line x1="140" y1="124" x2="140" y2="132" stroke="#c49060" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- BOCA costurada -->
+  <path d="M118,145 Q140,162 162,145" stroke="#c07850" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="0"/>
+
+  <!-- BLUSH de feltro -->
+  <ellipse cx="98" cy="126" rx="15" ry="10" fill="#fca5a5" opacity="0.55"/>
+  <ellipse cx="182" cy="126" rx="15" ry="10" fill="#fca5a5" opacity="0.55"/>
+
+  <!-- TAG de boneco de pano na orelha -->
+  <rect x="192" y="85" width="24" height="16" rx="3" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <line x1="192" y1="93" x2="216" y2="93" stroke="#f9a8d4" stroke-width="0.8"/>
+  <text x="204" y="91" font-family="serif" font-size="5" fill="#ec4899" text-anchor="middle">✦BT✦</text>
+  <text x="204" y="100" font-family="serif" font-size="4" fill="#f9a8d4" text-anchor="middle">pano</text>
+  <!-- Fio da tag -->
+  <line x1="204" y1="85" x2="204" y2="78" stroke="#fca5a5" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Nome tag -->
+  <rect x="72" y="402" width="136" height="22" rx="11" fill="#dc2626"/>
+  <text x="140" y="418" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">🧒 Bertunho</text>
+</svg>
